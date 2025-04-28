@@ -1,0 +1,29 @@
+
+{
+  "hero.title": "Hi, I’m Matías Deluca",
+  "hero.subtitle": "Full Stack Developer passionate about crafting high-performance web experiences.",
+  "hero.cta": "Get in touch",
+  "nav.home": "Home",
+  "nav.about": "About",
+  "nav.skills": "Skills",
+  "nav.experience": "Experience",
+  "nav.projects": "Projects",
+  "nav.contact": "Contact",
+  "about.title": "About me",
+  "about.text": "I’m a Full Stack Developer with 3+ years of experience in JavaScript/TypeScript, React, Node and MongoDB. I love turning ideas into robust products, optimizing performance and user experience. I’m looking to contribute to teams that value code quality and continuous learning.",
+  "skills.title": "Skills",
+  "experience.title": "Experience",
+  "experience.role": "Freelance Full Stack Developer",
+  "experience.period": "(Feb 2022 – Present)",
+  "experience.bullet1": "Implemented performance optimizations that reduced load times and improved SEO.",
+  "experience.bullet2": "Designed and integrated REST APIs and responsive UIs for diverse clients.",
+  "experience.bullet3": "Managed multiple projects ensuring on-time delivery and effective client communication.",
+  "projects.title": "Projects",
+  "projects.soon": "Coming soon…",
+  "contact.title": "Contact",
+  "contact.intro": "Want to work together or just say hi? Reach me at:",
+  "contact.emailLabel": "Email:",
+  "contact.linkedinLabel": "LinkedIn:",
+  "contact.githubLabel": "GitHub:"
+}
+
