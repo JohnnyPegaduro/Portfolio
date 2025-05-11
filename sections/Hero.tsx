@@ -15,22 +15,42 @@ export default function Hero() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ type: 'spring', stiffness: 80, damping: 20 }}
     >
-      {/* grid 1 columna en mobile, 2 en md+ */}
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        {/* Texto + CTA */}
-        <div className="text-center md:text-left">
-          <h1 className="text-5xl font-bold mb-4">{t('hero.title')}</h1>
-          <p className="text-xl mb-6">{t('hero.subtitle')}</p>
+        {/* TEXTO */}
+        <div className="text-center md:text-left space-y-6">
+          <h1 className="text-5xl font-bold">{t('hero.title')}</h1>
+          <p className="text-xl">{t('hero.subtitle')}</p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <Link
+              href="#contact"
+              className="inline-block px-6 py-3 font-semibold rounded-full border-2 border-primary text-primary hover:bg-primary hover:text-white transition"
+            >
+              {t('hero.cta')}
+            </Link>
+            <a
+              href="/MatiasArielDeluca_CV.pdf"
+              download
+              className="inline-block px-6 py-3 font-semibold rounded-full border-2 border-primary text-primary hover:bg-primary hover:text-white transition"
+            >
+              {t('hero.downloadCV')}
+            </a>
+          </div>
         </div>
-        {/* Imagen */}
+        {/* IMAGEN */}
         <div className="flex justify-center">
-          <Image
-            src="/profile.jpg"
-            alt="Foto de perfil de Matías Deluca"
-            width={200}
-            height={200}
-            className="rounded-full border-4 border-current"
-          />
+          <motion.div
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{ delay: 0.5, type: 'spring', stiffness: 100 }}
+          >
+            <Image
+              src="/profile.jpg"
+              alt="Foto de perfil de Matías Deluca"
+              width={200}
+              height={200}
+              className="rounded-full border-4 border-current"
+            />
+          </motion.div>
         </div>
       </div>
     </motion.section>
