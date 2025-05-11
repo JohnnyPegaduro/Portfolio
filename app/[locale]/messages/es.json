@@ -24,5 +24,7 @@
   "contact.intro": "Si querés que trabajemos juntos o simplemente decir hola, escribime:",
   "contact.emailLabel": "Email:",
   "contact.linkedinLabel": "LinkedIn:",
-  "contact.githubLabel": "GitHub:"
+  "contact.githubLabel": "GitHub:",
+  "footer.follow": "Sígueme en:",
+  "footer.backToTop": "Volver arriba"
 }
