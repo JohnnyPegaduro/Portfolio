@@ -26,5 +26,12 @@
   "contact.linkedinLabel": "LinkedIn:",
   "contact.githubLabel": "GitHub:",
   "footer.follow": "Sígueme en:",
-  "footer.backToTop": "Volver arriba"
+  "footer.backToTop": "Volver arriba",
+  "form.name": "Nombre",
+  "form.email": "Email",
+  "form.message": "Mensaje",
+  "form.submit": "Enviar",
+  "form.sending": "Enviando...",
+  "form.success": "¡Mensaje enviado!",
+  "form.error": "Error al enviar"
 }

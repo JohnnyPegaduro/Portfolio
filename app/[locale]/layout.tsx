@@ -40,7 +40,6 @@ export default function RootLayout({ children, params }: RootLayoutProps) {
           <main className="h-full overflow-y-auto snap-y snap-mandatory">
             {children}
           </main>
-
         </TranslationsProvider>
       </body>
     </html>
