@@ -47,7 +47,7 @@ export default function Hero() {
               {t('hero.cta')}
             </Link>
             <a
-              href="/MatiasDeluca_CV.pdf"
+              href="/MatiasArielDeluca_CV.pdf"
               download
               className="inline-block px-6 py-3 font-semibold rounded-full border-2 border-primary text-primary hover:bg-primary hover:text-white transition"
             >
