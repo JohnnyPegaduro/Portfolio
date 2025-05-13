@@ -48,7 +48,7 @@ export default function Experience() {
             <h3 className="text-xl font-semibold mb-2">
               {role} <span className="text-neutral-500">{date}</span>
             </h3>
-            <ul className="list-disc ml-5 space-y-1 text-neutral-300">
+            <ul className="list-disc ml-5 space-y-1">
               {bullets.map((b) => (
                 <li key={b}>{b}</li>
               ))}
