@@ -8,6 +8,14 @@ import LanguageToggle from '../../components/LanguageToggle';
 import { TranslationsProvider } from '../i18n/TranslationsContext';
 import type { ReactNode } from 'react';
 
+export const metadata = {
+  title: 'Mi Portfolio',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/favicon.ico'
+  }
+};
+
 export function generateStaticParams() {
   return [{ locale: 'es' }, { locale: 'en' }];
 }
