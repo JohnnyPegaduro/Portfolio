@@ -5,9 +5,14 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 
 export default function Hero() {
   const t = useT();
+  const pathname = usePathname();
+  const cvHref = pathname.startsWith('/en')
+    ? '/CV%20-%20Matias%20Ariel%20Deluca%20(EN).pdf'
+    : '/CV%20-%20Matias%20Ariel%20Deluca.pdf';
   const fullText = t('hero.subtitle');
   const [typed, setTyped] = useState('');
 
@@ -47,7 +52,7 @@ export default function Hero() {
               {t('hero.cta')}
             </Link>
             <a
-              href="/MatiasArielDeluca_CV.pdf"
+              href={cvHref}
               download
               className="inline-block px-6 py-3 font-semibold rounded-full border-2 border-primary text-primary hover:bg-primary hover:text-white transition"
             >
